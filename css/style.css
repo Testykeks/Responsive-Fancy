@@ -176,4 +176,127 @@ header img {
     }
 }
 
+.contact-us {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+.contact-us form {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact-us span {
+    font-size: 38px;
+    color: white;
+    padding-bottom: 50px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.contact-us select {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    height: 60px;
+    width: 100%;
+    font-size: 18px;
+    padding: 0 45px 0 20px;
+}
+
+.contact-us button {
+    width: 40%;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    height: 60px;
+    border-radius:30px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.contact-us label {
+    color: white;
+    font-size: 20px;
+    font-family: "Arial";
+}
+
+.contact-us input {
+    margin: 0;
+    font-family: 'Arial',Arial,sans-serif;
+    font-size: 24px;
+    height: 60px;
+    font-weight: bold;
+    padding: 0px 20px;
+    font-size: 16px;
+    line-height: 1.33;
+    width: 100%;
+    background-color: #000000;
+    border: 1px solid #7c7c7c;
+    color: white;
+}
+
+.contact-us input[name='Comment'] {
+    padding-top: 15px;
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width: 321px) {
+    .contact-us label {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .contact-us label {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .contact-us label {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .contact-us span {
+        font-size: 48px;
+    }
+
+    .contact-us input {
+        font-size: 20px;
+    }
+
+    .contact-us select {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .contact-us span {
+        font-size: 38px;
+    }
+    .contact-us input {
+        font-size: 14px;
+    }
+
+    .contact-us select {
+        font-size: 14px;
+    }
+}
 
